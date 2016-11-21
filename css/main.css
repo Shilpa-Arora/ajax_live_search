@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+h1{
+	
+	font-family: 'Candal', sans-serif;
+
+}
+h3{
+	text-shadow: 1px 1px 1px rgba(66,73,73,1);
+}
+
+h2, h3, p{
+	font-family: 'Amaranth', sans-serif;
+}
+
+/* enable absolute positioning */
+.inner-addon {
+  position: relative;
+}
+
+/* style glyph */
+.glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+  color: black;
+}
+
+
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+
+
+.searchCon
+{
+padding-top: 23px;
+}
+input[type=text] {
+    width: 200px;
+    float: right;
+ box-sizing: border-box;
+ transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 100%;
+}
+#displaySearch{
+	
+	margin-bottom: 2%;
+	background-color:rgba(229, 232, 232,0.6);
+}
+
+#hint, #imgDiv{
+text-align: center;
+}
+#hint a{
+
+	text-decoration: none;
+	color: white;
+	margin-right: 2%;
+	margin-left: 2%;
+	display: inline-block;
+		
+}
+.plant{
+	text-align: center;
+}
+#imgDiv img{
+
+	max-width: 80%;
+
+}
+
+#imgDiv{
+	margin-top: 5%;
+
+
+}
+ #imgText{
+ 	margin-top: 3%;
+ 	padding-right: 5%;
+ }
+
+#imgText div{
+	text-align: center;
+}
+#hint h3{
+	color: white;
+}
+#imgText h2, p{
+color: black;
+
+ }
+ p{
+ 	 text-align: justify;
+ }
+ @media screen and (min-width:10em ) {
+ 	#hint img{
+ 		display: none;
+ 	}
+ 	h1{
+ 		text-align: center;
+ 	}
+ 	h1, h2{
+ 		color: black;
+ 	}
+ 	
+ }
+  @media screen and (min-width:26em ) {
+  	h1{
+  		color: white;
+
+
+  	}
+  	#hint img{
+ 		display: inline;
+ 	}
+
+  }
+
+
+
